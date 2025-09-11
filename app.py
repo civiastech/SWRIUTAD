@@ -115,7 +115,7 @@ if uploaded_file is not None:
                     risk_weight = feedback_data.get(fault_key, {}).get("risk_weight", 5)
                     
                     # Calculate SWRI (Severity-Weighted Risk Index)
-                    swri_score = confidence + risk_weight *10
+                    swri_score = (confidence + risk_weight *10)/10
 
                     all_detections.append({
                         "box": box,
