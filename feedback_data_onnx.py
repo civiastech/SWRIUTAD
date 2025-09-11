@@ -20,7 +20,7 @@ feedback_data = {
         "priority": "Low",
         "risk_weight": 4  # Added risk weight
     },
-        "opening on the wall": {
+    "interface opening": {
         "score": 3,
         "severity": "Moderate",
         "recommendation": "Seal the gap immediately and assess wall integrity.",
@@ -28,11 +28,11 @@ feedback_data = {
         "risk_weight": 6  # Added risk weight
     },
     "opening on gba": {
-        "score": 2,
+        "score": 3,
         "severity": "Low",
         "recommendation": "Seal the gap immediately and assess wall integrity.",
         "priority": "Low",
-        "risk_weight": 4  # Added risk weight
+        "risk_weight": 6  # Added risk weight
     },
     "vegetation on wall": {
         "score": 2,
@@ -102,7 +102,7 @@ feedback_data = {
         "severity": "Moderate",
         "recommendation": "Engineer Visual inspection assessment and monitor for propagation.",
         "priority": "High",
-        "risk_weight": 8  # Added risk weight
+        "risk_weight": 6  # Added risk weight
     },
     "expose foundation wall": {
         "score": 3,
