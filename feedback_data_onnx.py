@@ -109,7 +109,7 @@ feedback_data = {
         "severity": "Moderate",
         "recommendation": "Visual inspection assessment and monitor for propagation.",
         "priority": "Medium",
-        "risk_weight": 6  # Added risk weight
+        "risk_weight": 20  # Added risk weight
     },
     "basket corrosion wall": {
         "score": 3,
