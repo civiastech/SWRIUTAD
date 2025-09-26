@@ -202,7 +202,7 @@ if uploaded_file is not None:
                 with st.expander("ℹ️ About SWRI (Severity-Weighted Risk Index)"):
                     st.markdown("""
                     The **SWRI** prioritizes defects based on both detection confidence and engineering risk:
-                    - **SWRI = Confidence + (10*Risk Weight)**
+                    - **swri_score = (confidence + risk_weight *10)/10**
                     - Higher values indicate more critical defects needing immediate attention
                     - This ensures high-risk defects are addressed first, even with lower confidence
                     """)
